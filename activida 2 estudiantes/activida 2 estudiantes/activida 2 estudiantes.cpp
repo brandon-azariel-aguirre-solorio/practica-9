@@ -8,39 +8,61 @@ int main()
 	bool bandera;
 	do
 	{
-		cout >> "-----------------------------------------------------------------------------------------------------------\n";
-		cout >> "-----------------------------------------------------------------------------------------------------------\n";
+		system("cls");
+		cout << "-----------------------------------------------------------------------------------------------------------\n";
+		cout << "                                  Bienbenido al sistema de control univercitario                           \n";
+		cout << "-----------------------------------------------------------------------------------------------------------\n";
+		cout << "\t1 . - Pedro Estrada \n";
+		cout << "\t2 . - Karla Garcia  \n";
+		cout << "\t3 . - Perla Sanchez \n";
+		cout << "\t4 . - Antonio Perez \n";
+		cout << "\t5 . - Ana valdez \n\n";
+		cout << " Ingresa el numero del estudiante que quieres conocr sus datos : \n";
+		cin >> numerodestudiante;
 		switch (numerodestudiante)
 		{
 		case '1':
+			system("cls");
 			cout << "Has elgido al estudiante: Pedro Estrada. \n\n ";
-			cout << "Grupo:  3°A \n\n";
-			cout << "correo electronico univercitario: pedroe@ucol.mx ";
+			cout << "Grupo:  3 A \n\n";
+			cout << "correo electronico univercitario: pedroe@ucol.mx \n\n ";
+			system("pause");
 			break;
 		case '2':
-			cout << "Has elgido al estudiante: Karla Garcia";
-			cout << "Grupo:  3°C \n\n";
-			cout << "correo electronico univercitario: garciaKarla@ucol.mx ";
+			system("cls");
+			cout << "Has elgido al estudiante: Karla Garcia \n\n";
+			cout << "Grupo:  3 C \n\n";
+			cout << "correo electronico univercitario: garciaKarla@ucol.mx \n\n ";
+			system("pause");
 			break;
-		case '3':cout << "Has elgido al estudiante: Perla Sanches";
-			cout << "Grupo:  3°D \n\n";
-			cout << "correo electronico univercitario: sanchezp@ucol.mx ";
+		case '3':
+			system("cls");
+			cout << "Has elgido al estudiante: Perla Sanches \n\n";
+			cout << "Grupo:  3 D \n\n";
+			cout << "correo electronico univercitario: sanchezp@ucol.mx \n\n";
+			system("pause");
 			break;
 		case '4':
-			cout << "Has elgido al estudiante: Antonio Perez";
-			cout << "Grupo:  3°B \n\n";
-			cout << "correo electronico univercitario: perezantonio@ucol.mx";
+			system("cls");
+			cout << "Has elgido al estudiante: Antonio Perez \n\n";
+			cout << "Grupo:  3 B \n\n";
+			cout << "correo electronico univercitario: perezantonio@ucol.mx \n\n";
+			system("pause");
 			break;
 		case '5':
-			cout << "Has elgido al estudiante: Ana valdez ";
-			cout << "Grupo:  3°A \n\n";
-			cout << "correo electronico univercitario: valdezaa@ucol.mx ";
+			system("cls");
+			cout << "Has elgido al estudiante: Ana valdez \n\n";
+			cout << "Grupo:  3 A \n\n";
+			system("pause");
+			cout << "correo electronico univercitario: valdezaa@ucol.mx \n\n";
 			break;
 		default:
-
+			system("cls");
+			cout << "numero de estudiante no valido ingresa otro \n";
 		}
+
 	} while (bandera = true);
 	
-
+	return 0;
 }
 

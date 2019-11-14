@@ -9,15 +9,16 @@ int main()
 	do
 	{
 		system("cls");
-		cout << "-----------------------------------------------------------------------------------------------------------\n";
+		cout << "------------------------------------------------------------------------------------------------------------------------\n";
 		cout << "                                  Bienbenido al sistema de control univercitario                           \n";
-		cout << "-----------------------------------------------------------------------------------------------------------\n";
+		cout << "------------------------------------------------------------------------------------------------------------------------\n\n";
 		cout << "\t1 . - Pedro Estrada \n";
 		cout << "\t2 . - Karla Garcia  \n";
 		cout << "\t3 . - Perla Sanchez \n";
 		cout << "\t4 . - Antonio Perez \n";
-		cout << "\t5 . - Ana valdez \n\n";
-		cout << " Ingresa el numero del estudiante que quieres conocr sus datos : \n";
+		cout << "\t5 . - Ana valdez \n";
+		cout << "\t6 . - salir del programa \n \n";
+		cout << " Ingresa el numero del estudiante que quieres conocr sus datos : \n\n";
 		cin >> numerodestudiante;
 		switch (numerodestudiante)
 		{
@@ -53,15 +54,19 @@ int main()
 			system("cls");
 			cout << "Has elgido al estudiante: Ana valdez \n\n";
 			cout << "Grupo:  3 A \n\n";
-			system("pause");
 			cout << "correo electronico univercitario: valdezaa@ucol.mx \n\n";
+			system("pause");
 			break;
+		case '6':
+			bandera = true;
+		    break;
 		default:
 			system("cls");
 			cout << "numero de estudiante no valido ingresa otro \n";
+			system("pause");
 		}
 
-	} while (bandera = true);
+	} while (bandera != true);
 	
 	return 0;
 }

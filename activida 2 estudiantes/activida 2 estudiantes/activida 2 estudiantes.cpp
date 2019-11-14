@@ -18,7 +18,7 @@ int main()
 		cout << "\t4 . - Antonio Perez \n";
 		cout << "\t5 . - Ana valdez \n";
 		cout << "\t6 . - salir del programa \n \n";
-		cout << " Ingresa el numero del estudiante que quieres conocr sus datos : \n\n";
+		cout << " Ingresa el numero del estudiante que quieres conocer sus datos : \n\n";
 		cin >> numerodestudiante;
 		switch (numerodestudiante)
 		{
